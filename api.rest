@@ -1,0 +1,14 @@
+POST http://localhost:8080/student/
+
+Authorization: Token xxx
+Content-Type: application/json
+
+{
+    "sid": "190215",
+    "name": "Bishal Rana Magar",
+    "batch": "27A"
+}
+
+###
+
+GET http://localhost:8080/student/
